@@ -19,3 +19,5 @@ print(f'Notas de R$ 50,00 = {cinquenta}')
 print(f'Notas de R$ 10,00 = {dez}')
 print(f'Notas de R$ 5,00 = {cinco}')
 print(f'Notas de R$ 1,00 = {um}')
+
+#teste
