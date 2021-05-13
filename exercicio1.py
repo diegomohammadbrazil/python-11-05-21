@@ -1,6 +1,8 @@
-import time
+from random import sample
 
-for c in range(10, -1, -1):
-    time.sleep(1)
-    print(c)
-    print('Feliz ano novo')
+num = tuple(sample(range(10), 5))
+for i in num:
+    print(i, end=' ')
+print(f'''
+Maior valor sorteado: {max(num)}
+Menor valor sorteado: {min(num)}.''')
